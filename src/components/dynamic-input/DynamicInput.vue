@@ -6,7 +6,8 @@
         formControl.type === 'email' ||
         formControl.type === 'password' ||
         formControl.type === 'url' ||
-        formControl.type === 'number'
+        formControl.type === 'number' ||
+        formControl.type === 'date'
       "
       :formControl="formControl"
       @change="valueChange"
